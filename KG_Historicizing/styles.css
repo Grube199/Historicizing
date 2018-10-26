@@ -1,16 +1,14 @@
 /*colors:
-purple #800080
-lavender #E6E6FA
+
 black #111
 green #4CAF50
 gray #f2f2f2
 gray #ccc
-cornflower blue #6495ED
-midnight blue	#191970
 white #FFFFFF
 pink #F3D3BD
 green #48E5C2;
 #3F3F3F
+sea green #C4D6BO
 
 
 */
@@ -27,7 +25,12 @@ body {
 h1 {
   background-color: #191970;
   text-align: center;
+  padding: 1em;
 
+}
+
+h1 {
+  color: #C4D6B0;
 }
 /* inline display of navigaion buttons*/
 #toolbar {
