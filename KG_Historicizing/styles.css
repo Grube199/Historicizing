@@ -68,39 +68,7 @@ h2 {
   color: #800080;
   }
 /*Home page banner color with picture*/
-  #banner {
-   background-color: #E6E6FA;
-   padding: 2%;
-   }
 
-/*ministry title font style*/
-#min {
-  font-family: 'Courgette', cursive;
-  font-size: 60%;
-  text-align: left;
-}
-#bookcv img {
-  margin: 2%;
-  }
-
-  button {
-    background-color: #800080;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 2px;
-    cursor: pointer;
-    }
-    Button:hover:not(.active) {
-        background-color: #111;
-    }
-
-  /*need another order page for button*/
-  /*style xml on blog page-not necessary*/
 
 footer {
     background-color: #E6E6FA;
@@ -108,36 +76,11 @@ footer {
     font-size: 60%;
     text-align: center;
     }
-    /*contact form*/
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=formtext], select, textarea {
-    width: 100%; /* Full width */
-    padding: 15px; /* Some padding */
-    border: 2px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
-}
 
 /* Add a background color and some padding around the form */
 .container {
