@@ -23,29 +23,67 @@
 </nav>
 
 <h2>Introduction</h2>
-<p>The global spellcheck attribute made its first appearance in 2009 admist controversy.</p>
+<p>The spellcheck attribute has been available to web authors since February 2009 (Pilgrim, 2009, "A Brief History of the Spellcheck Attribute,", para. 9). It is new to the HTML5 standards and works with specific elements.</p>
+
+<p>&lttextarea&gt</p>
+<p>&ltinput type="text"&gt(except passwords)</p>
+<p>&ltp contenteditable="true" spellcheck="true"&gtcontent added/p&gt</p>
+
+<p>According to the W3Schools website, several browsers support this attribute such as “Firefox 2.0, Safari 5.1 and Opera 10.5, Microsoft Edge 10.0 and Google Chrome 9.0”  (https://www.w3schools.com/tags/att_global_spellcheck.asp). This attribute is known as a Global attribute because it specifies whether an element has its spelling and grammar checked. Some elements,like the &ltp&gt or the paragraph tag, can be paired with contenteditable and the spellcheck attribute. The following is an example: &ltp contenteditable=”true” spellcheck=”true”&gtcontent added/p&gt. For the attribute to work with the browser, its value equals either “true” (spelling and grammar will be checked) or “false” (spelling and grammar won’t be checked).</p>
+
 <!-- demonstartions of spellcheck attribute-->
 
  <!--works best in browser Chrome, Firefox, not IE -->
+<hr></hr>
 <p contenteditable="true" spellcheck="true">This paragraph demonstrates howm hte spellcheck atrribute works. It is editable. Try to change the text.</p>
 
 First name: <input type="text" name="fname" spellcheck="true">
 
 <p><strong>Note:</strong> The spellcheck attribute is not supported in Internet Explorer 9 and earlier versions.</p>
 <!-- don't forget area demonstration -->
+<p>This is a sample form</p>
+<form id="usrform">
+Country: <input type="text" name="country" spellcheck="true">
+</form>
+<br>
+<textarea spellcheck="true" rows="4" cols="50" name="comment" form="usrform">
+Enter text here...</textarea>
+<p><b>Note:</b> The form attribute is not supported in IE.</p>
+ <form action="/action_page.php" id="usrform">
+  Name: <input type="text" name="usrname">
+  <input type="submit">
+</form>
+<br>
+<textarea spellcheck="true" rows="4" cols="50" name="comment" form="usrform">
+Enter text here...</textarea>
+
+<p>The text area above is outside the form element, but should still be a part of the form.</p>
+
+<p><b>Note:</b> The form attribute is not supported in IE.</p>
+
+<h2>How the Spellcheck Attribute Works</h2>
+<p>The spellcheck attribute tells the browser to check or not to check for spelling. Browsers “read” the text and compare it to a dictionary database. Safari offers suggestions for misspelled words “when the attribute is included and set to “true”” (Wufoo, n.d. para. 2). The Wufoo website explains how browsers differ when the spellcheck attribute is present and set to the value of “true.” Some browsers, like IE10, Chrome and Opera check the word once it is typed and the punctuation or space has been added after the word (Wufoo, n.d.). In Firefox, if the onblur element (used in forms to inform the input field when the user leaves the input box) is used with the spellcheck attribute set to the value of “true,” “Firefox spell checks the rest of the document” including “elements that are by default spell checked” (Wufoo, n.d.).
+</p>
+
+</body>
+</html>
+
+</body>
+</html>
+
 <!--end of demonstration-->
 
-<p> Vivamus cursus dolor urna. Integer rhoncus ac augue condimentum placerat. Vivamus sed tristique enim. Nulla pretium mattis justo vel ornare. Donec sit amet egestas massa. Suspendisse consectetur sapien ex, a interdum urna pretium vel. Ut quis feugiat ante. Donec porttitor enim quam, in faucibus lectus imperdiet vitae. Ut metus nunc, tincidunt nec metus sit amet, sodales luctus velit. Nullam sollicitudin non nisl ac mollis. Sed a nunc et tortor posuere sodales laoreet ut odio. Sed sit amet ex malesuada, fermentum risus eget, suscipit erat. Fusce interdum purus gravida dictum maximus. Nunc quis egestas risus. Fusce fermentum, sapien vitae iaculis iaculis, velit odio rhoncus lorem, in tempus velit nunc sit amet augue. Sed ut mi libero.</p>
+<p></p>
 
 <h2>Section 2</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at iaculis dolor. Nam vestibulum vehicula tincidunt. Vestibulum quis felis magna. Ut a nunc sit amet metus suscipit posuere a nec nibh. Cras ut vehicula nisi, at vulputate lacus. Aenean tristique leo id diam hendrerit, ut cursus turpis venenatis. Morbi auctor imperdiet congue. Donec ac sem ullamcorper, tempor lacus accumsan, sodales augue. Donec quis varius neque. Pellentesque non ornare urna. Vivamus lacinia ex odio, sit amet gravida tellus porta consequat. Vivamus fringilla, lorem sit amet aliquam dapibus, ipsum est sodales velit, vitae interdum nibh odio eget sem.</p>
+<p></p>
 
-<p>Aliquam volutpat est ut arcu sagittis tristique. Mauris non porta risus. Praesent volutpat eu metus in placerat. Nullam justo urna, aliquet eu pulvinar id, porttitor eu turpis. Vestibulum interdum urna at turpis cursus bibendum. Aliquam vitae lectus magna. Quisque et posuere mauris. Vestibulum id luctus ipsum, sit amet placerat erat. Donec sodales iaculis ligula sit amet sollicitudin. Suspendisse placerat venenatis ex ac vestibulum. In vestibulum ipsum velit, id aliquet orci dictum non. Proin ullamcorper at lorem et consequat. Nam augue nisi, varius ac velit eu, suscipit lacinia diam. </p>
+<p> </p>
 
 <h2>Section 3</h2>
 
-<p>Aenean elit odio, tempor sed elementum in, consequat vel mi. Vivamus non sagittis nulla. Vivamus sem massa, tempor vitae orci id, tempor imperdiet nisl. Suspendisse rutrum, arcu at lobortis consectetur, purus magna interdum massa, vel sodales massa libero sit amet augue. Morbi non condimentum ipsum. Praesent maximus lacus nec nulla vulputate, sed efficitur nisl suscipit. Suspendisse accumsan cursus magna, eget porttitor arcu varius eu.</p>
+<p></p>
 
 <div id="contact">
 
