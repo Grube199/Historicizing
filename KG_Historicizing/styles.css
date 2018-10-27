@@ -8,7 +8,7 @@ white #FFFFFF
 pink #F3D3BD
 green #48E5C2;
 #3F3F3F
-sea green #C4D6BO
+sea green #C4D6B0
 
 
 */
@@ -34,14 +34,14 @@ h1 {
 }
 /* inline display of navigaion buttons*/
 #toolbar {
-  background-color: #800080;
+  background-color: #191970;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #800080;
+    background-color: #191970;
 }
 li {
   display: inline;
