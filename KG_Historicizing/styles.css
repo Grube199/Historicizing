@@ -69,7 +69,15 @@ h2 {
   color: #800080;
   }
 /*Home page banner color with picture*/
-
+#elements {
+  border-width: 2px;
+  border-top: color: #191970;
+  border-style: solid;
+  text-align: left;
+  margin: 10px auto 10px auto;
+  width: 450px;
+  padding: 30px;
+}
 
 footer {
     background-color: #E6E6FA;
