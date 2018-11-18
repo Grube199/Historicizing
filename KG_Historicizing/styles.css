@@ -9,7 +9,7 @@ pink #F3D3BD
 green #48E5C2;
 #3F3F3F
 sea green #C4D6B0
-
+mintCream  #F5FFFA
 
 */
 
@@ -78,7 +78,7 @@ h2 {
   margin: 10px auto 10px auto;
   width: 450px;
   padding: 20px;
-  background-color: #C4D6B0;
+  background-color: #F5FFFA;
   background-color: hsla (0, 100%, 85%, 0.5);
 }
 
