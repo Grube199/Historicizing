@@ -63,6 +63,7 @@ li a:hover:not(.active) {
 }
  a:active {
     background-color: #4CAF50;
+
 }
 
 h2 {
@@ -70,13 +71,16 @@ h2 {
   }
 /*Home page banner color with picture*/
 #elements {
-  border-width: 2px;
-  border-top: color: #191970;
+  border-width: 3px;
+  border-color: #191970;
   border-style: solid;
   text-align: left;
   margin: 10px auto 10px auto;
   width: 450px;
-  padding: 30px;
+  padding: 20px;
+  background-color: #C4D6B0;
+  background-color: hsla (0, 100%, 85%, 0.5);
+
 }
 
 footer {
