@@ -10,7 +10,7 @@ green #48E5C2;
 #3F3F3F
 sea green #C4D6B0
 mintCream  #F5FFFA
-
+purple #800080
 */
 
 body {
@@ -67,14 +67,18 @@ li a:hover:not(.active) {
 }
 
 h2 {
-  color: #800080;
+  color: #191970;
   }
 /*Home page banner color with picture*/
+
+/*text area that shows what the spellcheck atrribute works with*/
 #elements {
   border-width: 3px;
-  border-color: #191970;
+  border-color: #f2f2f2;
   border-style: solid;
   text-align: left;
+  font-size: 100%;
+  font-weight: bold;
   margin: 10px auto 10px auto;
   width: 475px;
   padding: 20px;
