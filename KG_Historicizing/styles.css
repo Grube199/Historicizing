@@ -19,7 +19,10 @@ body {
 
 body {
   background-color: #FFFFFF;
+}
 
+p {
+  line-height: 1.5em;
 }
 
 h1 {
