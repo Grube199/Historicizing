@@ -11,6 +11,8 @@ green #48E5C2;
 sea green #C4D6B0
 mintCream  #F5FFFA
 purple #800080
+PowderBlue #B0E0E6
+
 */
 
 body {
@@ -20,7 +22,7 @@ body {
 body {
   background-color: #FFFFFF;
 }
-
+/* increase leading fore ease of reading*/
 p {
   line-height: 1.5em;
 }
@@ -74,10 +76,14 @@ h2 {
   }
 /*Home page banner color with picture*/
 
-#pOne {
+.container1 {
   overflow: auto;
-  width: 80%;
-  margin: 20px, auto, 20px, auto;
+  border-width: 2px;
+  border-color: none;
+  text-align: left;
+  margin: 0px auto 0px 0px;
+  width: 620px;
+background-color: white;
 }
 
 /*text area that shows what the spellcheck atrribute works with*/
