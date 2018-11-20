@@ -76,7 +76,8 @@ h2 {
   }
 /*Home page banner color with picture*/
 
-.container1 {
+
+    .container1 {
   overflow: auto;
   border-width: 2px;
   border-color: none;
@@ -95,7 +96,7 @@ background-color: white;
   text-align: left;
   font-size: 100%;
   font-weight: bold;
-  margin: 10px auto 10px auto;
+  margin: 10px auto 10px 10px;
   width: 475px;
   padding: 20px;
   background-color: #F5FFFA;
