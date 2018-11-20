@@ -71,8 +71,14 @@ h2 {
   }
 /*Home page banner color with picture*/
 
+#pOne {
+  overflow: auto;
+  width: 80%;
+}
+
 /*text area that shows what the spellcheck atrribute works with*/
 #elements {
+
   border-width: 3px;
   border-color: #f2f2f2;
   border-style: solid;
