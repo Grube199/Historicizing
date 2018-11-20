@@ -74,6 +74,7 @@ h2 {
 #pOne {
   overflow: auto;
   width: 80%;
+  margin: 20px, auto, 20px, auto;
 }
 
 /*text area that shows what the spellcheck atrribute works with*/
