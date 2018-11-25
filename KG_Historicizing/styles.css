@@ -12,7 +12,7 @@ sea green #C4D6B0
 mintCream  #F5FFFA
 purple #800080
 PowderBlue #B0E0E6
-
+light blue  #E6E6FA
 */
 
 body {
@@ -76,7 +76,7 @@ h2 {
   }
 /*Home page banner color with picture*/
 
-
+/* Trying to style column
     .container1 {
   overflow: auto;
   border-width: 2px;
@@ -86,7 +86,30 @@ h2 {
   width: 620px;
 background-color: white;
 }
+*/
+.wrappera{
+			  display:grid;
+			  grid-template-columns: 0.5fr 3fr 0.5fr;
+			}
+			.wrappera > div {
+				background: #eee;
+				padding: 1em;
+			}
+			.wrappera > div:nth-child(odd){
+				background: #ddd;
+			}
 
+.wrapper{
+			  display:grid;
+			  grid-template-columns: 0.5fr 3fr 0.5fr;
+			}
+			.wrapper > div {
+				background: #eee;
+				padding: 1em;
+			}
+			.wrapper > div:nth-child(odd){
+				background: #ddd;
+			}
 /*text area that shows what the spellcheck atrribute works with*/
 #elements {
 
@@ -96,7 +119,7 @@ background-color: white;
   text-align: left;
   font-size: 100%;
   font-weight: bold;
-  margin: 10px auto 10px 10px;
+  margin: 10px auto 10px auto;
   width: 475px;
   padding: 20px;
   background-color: #F5FFFA;
