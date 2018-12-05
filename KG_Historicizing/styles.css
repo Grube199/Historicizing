@@ -126,10 +126,11 @@ background-color: white;
   background-color: hsla (0, 100%, 85%, 0.5);
 }
 
-footer {
-    background-color: #E6E6FA;
+.footer {
+    background-color: #191970;
     padding: 3%;
     font-size: 60%;
+    color: #ffffff;
     text-align: center;
     }
 
