@@ -87,6 +87,21 @@ h2 {
 background-color: white;
 }
 */
+/*content for sticky toolbar*/
+.content {
+   padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+/* end javascript sticky toolbar*/
 .wrappera{
 			  display:grid;
 			  grid-template-columns: 0.5fr 3fr 0.5fr;

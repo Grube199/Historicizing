@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
 <meta charset="utf-8">
+<!--testing javascript for sticky toolbar-->
+<meta name="viewport" content ="width=device-width, initial-scale=1">
+</meta>
 </meta>
 <head>
   <title>Spellcheck Attribute</title>
@@ -34,7 +37,8 @@
 </div>
 <div></div>
 </div>-->
-
+<!--trying out sticky toolbar-->
+<div class="content">
 <div class="wrapper">
   <div></div>
   <div>
@@ -153,6 +157,21 @@ In the case of spellchecking, the “fits and starts” may be related to their 
 <p>Copyright &copy 2018 Katharine Gruber</strong>| Website Design by Kathy</p>
 </footer>
 </div>
+</div>
+<script>
+    window .onscroll = function(){myFunction();};
+    var toolbar = document.getElementById("toolbar");
+    var sticky = toolbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        toolbar.classList.add("sticky")
+      } else {
+        toolbar.classList.remove("sticky");
+      }
+    }
+    
+</script>
 </main>
 </body>
 </html>
