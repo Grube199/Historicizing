@@ -146,8 +146,14 @@ background-color: white;
 /*end spellcheck attributes*/
 img.align-right {
   float: right;
-  margin-left: 3%;
+  margin-left: 10px;
 }
+
+img.align-left {
+  float: left:
+  margin: 10px 10px 10px 10px;
+}
+
 .footer {
     background-color: #191970;
     padding: 3%;
