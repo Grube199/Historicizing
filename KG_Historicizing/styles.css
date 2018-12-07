@@ -68,7 +68,6 @@ li a:hover:not(.active) {
 }
  a:active {
     background-color: #4CAF50;
-
 }
 
 h2 {
@@ -87,6 +86,11 @@ h2 {
 background-color: white;
 }
 */
+/*styling user form*/
+.usrform{
+  padding: 10%;
+
+}
 /*content for sticky toolbar*/
 .content {
    padding: 16px;
