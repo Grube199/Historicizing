@@ -107,11 +107,11 @@ background-color: white;
 			  grid-template-columns: 0.5fr 3fr 0.5fr;
 			}
 			.wrappera > div {
-				background: #eee;
+				background: #ddd;
 				padding: 1em;
 			}
 			.wrappera > div:nth-child(odd){
-				background: #ddd;
+				background: #eee;
 			}
 
 .wrapper{
