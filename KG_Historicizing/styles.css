@@ -149,9 +149,8 @@ img.align-right {
   margin-left: 10px;
 }
 
-img.align-left {
-  float: left:
-  margin: 10px 10px 10px 10px;
+img.align-center {
+    margin: 10px, auto, 10px, auto;
 }
 
 .footer {
