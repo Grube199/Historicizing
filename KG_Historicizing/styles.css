@@ -153,6 +153,10 @@ img.align-center {
     margin: 10px, auto, 10px, auto;
 }
 
+.list{
+  background-color: #eee;
+}
+
 .footer {
     background-color: #191970;
     padding: 3%;
